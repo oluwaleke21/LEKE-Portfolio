@@ -5,18 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/eef3ec1472.js" crossorigin="anonymous"></script>
     <title>Leke Portfolio</title>
 </head>
 <body>
+    <i class="fa-solid fa-house home">HOME PAGE</i>
+    <i class="fa-solid fa-phone telephone">09136266246</i>
+    <i class="fa-brands fa-whatsapp whatsapp">08182654962</i>
+    <i class="fa-brands fa-twitter twitter">oluwaleke_21</i>
+
+
     <header>
 		<nav>
 			<ul>
 				<li><a href="#name">OLUWALEKE A. SALEM</a></li>
 				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#contact">Contact || 09136266246</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
+
+    <section id="about">
+		<h1>About Me</h1>
+		<p>My name is Oluwaleke A. SALEM.</p>
+        <p>I am an aspiring Software Engineeer</p>
+        <p>My skills includes good problem-solving skills, web development, excellent communication skills, keen attention to details, passion for writing, version control.</p>
+        <p>Programming languages: HTML, CSS</p>
+	</section>
+
+    <section id="portfolio">
+		<h1>Portfolio</h1>
+		<div class="project">
+			<img src="IMG-20230430-WA0019.jpg" alt="Project">
+			<h2>Project</h2>
+			<p>Using HTML and CSS to design an ID Card</p>
+		</div>
+	</section>
+
+    <section id="contact">
+		<h1>Contact Me</h1>
+			<form>
+				<label for="name" class="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email" class="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message" class="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<input type="submit" class="btn" value="Submit">
+			</form>
+	</section>
+	
     
 </body>
 </html>
