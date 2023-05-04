@@ -1,31 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap');
+
 body{
-    background-color: teal;
+    background-color: black;
 }
 
-.home{
-    color: black;
+.linkedin{
+    color: teal;
+    margin-right: 15px;
+    margin-left: 800px;
+    
+}
+
+.linkedin:hover{
+    color: white;
+}
+
+.linkedin1{
+    color: teal;
+}
+
+.linkedin1:hover{
+    color: white;
 }
 
 .telephone{
-    color: gold;
+    color: teal;
+    margin-right: 15px; 
+}
+
+.telephone:hover{
+    color: white;
 }
 
 .twitter{
-    color: gold;
+    color: teal;
 }
 
+.twitter:hover{
+    color: white;
+}
+
+.twitter1{
+    color: teal;
+}
+
+.twitter1:hover{
+    color: white;
+}
+
+.whatsapp{
+    color: teal;
+    margin-right: 15px;
+}
+
+.whatsapp1{
+    color: teal;
+}
+
+.whatsapp:hover{
+    color: white;
+}
+
+.whatsapp1:hover{
+    color: white;
+}
 h1{
-    font-family: cursive;
-    font-size: 28px;
-    color: brown;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: purple;
     text-decoration: none;
     text-transform: uppercase;
+    margin-top: 200px;
 }
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
-    color: brown;
+    color: purple;
     text-align: left;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif; 
+    color: white;
+    font-size: 28px;
+}
+
+.AA{
+    background-color: none;
+    font-size: 20px;
+    color: white;
 }
 
 .project{
@@ -37,20 +100,56 @@ h2{
 }
 
 .name{
-    background-color: gold;
+    background-color: teal;
 }
 
 .email{
-    background-color: gold;
+    background-color: teal;
 }
 
 .message{
-    background-color: gold;
+    background-color: teal;
 }
 
 .btn:hover{
-    background-color: black;
+    background-color: teal;
     color: gray;
     font-size: 20px;
     transition: 5s;
 }
+
+.AA:hover{
+    color: white;
+    font-size: 24px;
+}
+
+.image1{
+    border-color: 50%;
+    width: 1000px;
+    height: 500px;
+    margin-left: 150px;
+}
+
+.image2{
+    border-color: 50%;
+    width: 1000px;
+    height: 500px;
+    margin-left: 150px;
+}
+
+.contact1{
+   margin-top: 300px;
+}
+
+.AA1{
+    color: teal;
+}
+
+.AA2{
+    color: teal;
+}
+
+.AA3{
+    color: teal;
+}
+
